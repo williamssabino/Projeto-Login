@@ -7,7 +7,6 @@
 
 html,body{
     background-color: #5f2c82;
-    position: relative;
     width: 100vw;
     height: 100vh;
 }
@@ -15,15 +14,24 @@ html,body{
 main{
 
     display: block;
-    width: 200px;
-    height: 420px;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+
+}
+#login{
     background-color: white;
     border-radius: 15px;
-    margin: auto;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 420px;
+    margin: auto;
+    transform: translate(-50%,-50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 
 }
 #img{
@@ -37,7 +45,7 @@ main{
     display: block;
     margin: auto;
 }
-#login{
+#form{
     margin: 5px;
 }
 
