@@ -27,10 +27,12 @@ main{
     top: 50%;
     left: 50%;
     width: 200px;
-    overflow: hidden;/*configurção para esconder tudo que etsa fora da borda do  meu bloco login*/
+    overflow: hidden;/* configurção para esconder tudo que etsa fora da borda do  meu bloco login */
     height: 420px;
     margin: auto;
     transform: translate(-50%,-50%);
+    transition: width .2s, heigth .2s;
+    transition-timing-function: ease;
 
 }
 #img{
