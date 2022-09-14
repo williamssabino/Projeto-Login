@@ -3,20 +3,35 @@
 @media screen and (min-width:768px) and (max-width:992px){
     html,body{
         background-image: linear-gradient(to bottom, #5f2c82, #94cfcd);
-        transition: 1s;
     }
-    section#img{
-        width: 25vw;
+   
+    #login{
+        width: 80vw;
+        height: 240px;
+        border-radius: 15px;
+    }
+    #img{
+        width: 30%;
         height: 100%;
         float: left;
-        border-right: 1px solid black;
         border-top-right-radius: 0px;
-        border-bottom-left-radius: 15px;
+        border-bottom-left-radius:15px;
     }
-    section#login{
-        width: 53vw;
-        height: 100%;
-        float:right;
-        
+    #form{
+        float: right;
+        width: 68%;
     }
-}   
+  
+} 
+
+@media screen and (min-width:992px) and (max-width: 1200px){
+    html,body{
+        background-image: linear-gradient(to bottom, #5f2c82, #94cfcd);
+    }
+    #login{
+        width: 95vw;
+        height: 240px;
+        border-radius: 15px;
+    }
+    
+}            
