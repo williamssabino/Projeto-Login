@@ -31,7 +31,7 @@ main{
     height: 420px;
     margin: auto;
     transform: translate(-50%,-50%);
-    transition: width .2s, heigth .2s;
+    transition: width .3s, heigth .3s;
     transition-timing-function: ease;
 
 }
