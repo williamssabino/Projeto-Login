@@ -82,7 +82,7 @@ p{
     border: 1px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-3px);
+    transform: translateY(-3px);/*move o objeto na tela*/
 }
 #ieme:focus{
     background-color: white;
@@ -103,7 +103,7 @@ p{
 }
 
 
-input[type='submit']{
+input[type='submit']{/*configuraçao do tipo especifico do input*/
    
     display: block;
     font-size: 1em;

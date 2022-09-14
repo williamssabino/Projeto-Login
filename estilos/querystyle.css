@@ -34,7 +34,7 @@
         height: 280px;
     }
     #img{
-       float: right; 
+       float: right; /*redireciona o bloco na posição desejada [left,rigth..]*/
        width: 47%;
        height: 100%;
        background-position: bottom;
