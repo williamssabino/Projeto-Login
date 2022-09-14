@@ -30,11 +30,10 @@ main{
     height: 420px;
     margin: auto;
     transform: translate(-50%,-50%);
-    transition: width .3s, height .3s;
-    transition-timing-function: ease;
 
 }
 #img{
+    display: block;
     border-top-left-radius:15px;
     border-top-right-radius: 15px;
     width:200px;
@@ -44,8 +43,10 @@ main{
     background-position: bottom; 
     display: block;
     margin: auto;
+
 }
 #form{
+    display: block;
     margin: 5px;
 }
 
