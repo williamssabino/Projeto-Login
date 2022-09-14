@@ -27,7 +27,7 @@ main{
     top: 50%;
     left: 50%;
     width: 200px;
-    overflow: hidden;
+    overflow: hidden;/*configurção para esconder tudo que etsa fora da borda do  meu bloco login*/
     height: 420px;
     margin: auto;
     transform: translate(-50%,-50%);
