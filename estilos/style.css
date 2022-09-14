@@ -27,6 +27,7 @@ main{
     top: 50%;
     left: 50%;
     width: 200px;
+    overflow: hidden;
     height: 420px;
     margin: auto;
     transform: translate(-50%,-50%);
@@ -34,8 +35,6 @@ main{
 }
 #img{
     display: block;
-    border-top-left-radius:15px;
-    border-top-right-radius: 15px;
     width:200px;
     height:160px;
     background-image: url('../imagens/metal.jpg');
